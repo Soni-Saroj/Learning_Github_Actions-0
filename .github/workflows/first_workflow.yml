@@ -1,0 +1,10 @@
+name: first workflow for action-code repo
+on: workflow_dispatch
+jobs:
+  job-1:
+   runs-on: ubuntu-latest
+   steps:
+     - name: welcome message
+       run: echo "welocme to the first ever step, job, workflow written by you!"   
+     - name: leave message
+       run: echo "my work is done here!"
